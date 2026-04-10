@@ -1,12 +1,12 @@
 /**
- * @beeping-io/commitlint-config
+ * @beeping.io/commitlint-config
  *
  * Shared commitlint rules for all repos in the Beeping ecosystem.
  * Enforces Conventional Commits with the allowed types, scopes, and formatting.
  *
  * Usage in consumer repos:
  *   // commitlint.config.cjs
- *   module.exports = { extends: ['@beeping-io/commitlint-config'] }
+ *   module.exports = { extends: ['@beeping.io/commitlint-config'] }
  */
 module.exports = {
   rules: {

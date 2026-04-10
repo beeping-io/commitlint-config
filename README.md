@@ -1,4 +1,4 @@
-# @beeping-io/commitlint-config
+# @beeping.io/commitlint-config
 
 Shared [commitlint](https://commitlint.js.org/) configuration for all repos in
 the [Beeping](https://github.com/beeping-io) ecosystem.
@@ -9,7 +9,7 @@ Beeping-specific rules.
 ## Installation
 
 ```bash
-npm install -D @beeping-io/commitlint-config @commitlint/cli
+npm install -D @beeping.io/commitlint-config @commitlint/cli
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install -D @beeping-io/commitlint-config @commitlint/cli
 Create `commitlint.config.cjs` in your repo root:
 
 ```js
-module.exports = { extends: ['@beeping-io/commitlint-config'] };
+module.exports = { extends: ['@beeping.io/commitlint-config'] };
 ```
 
 ## Rules
