@@ -1,0 +1,36 @@
+{
+  "name": "@beeping-io/commitlint-config",
+  "version": "0.1.0",
+  "description": "Shared commitlint configuration for all Beeping ecosystem repos",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beeping-io/commitlint-config.git"
+  },
+  "homepage": "https://github.com/beeping-io/commitlint-config#readme",
+  "bugs": {
+    "url": "https://github.com/beeping-io/commitlint-config/issues"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "conventional-commits",
+    "beeping"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": ">=19.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/lint": "^19.8.0",
+    "vitest": "^3.1.1"
+  }
+}
